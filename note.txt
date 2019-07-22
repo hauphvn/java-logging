@@ -1,0 +1,43 @@
+-----Logging level------
+DEBUG, INFO, WARN, ERROR
+
+DEBUG:
+La logging level thap nhat.
+De debug chuong trinh, product
+Chi su dung trong development va testing
+Khong su dung trong production vi se anh huong den performance
+
+
+INFO:
+Gioi han hon so voi debug
+Log lai nhung gia tri mac dinh nhu: server restart, incoming message, outgoing message.
+Like cai nay, share cai kia
+
+
+WARN:
+Bi gioi han hon so voi INFO
+Mang thong diep canh bao
+Vi du khi connection database ma bi mat ket noi thi no canh bao
+Over the threshold
+Qua tai connection
+
+
+ERROR:
+Bi han che hon so voi WARN
+Dung de log nhung exception va errors
+
+
+-----Java log API--------
+Java log level:
+Severe(error)
+Warning
+Info
+Config
+Fine
+Finer
+Finest
+
+----Java log class------
+Filter: loc ra nhung message ma chung ta mong muon.
+Formatter: dinh dang ra message chung ta muon.
+Handler: thuc hien ghi log ra ben ngoai
